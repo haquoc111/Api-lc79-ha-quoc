@@ -1,0 +1,24 @@
+{
+  "name": "taixiu-api",
+  "version": "1.0.0",
+  "description": "API dự đoán Tài Xỉu HŨ & MD5",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "taixiu",
+    "prediction",
+    "api",
+    "fastify"
+  ],
+  "author": "@hahakk123",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "fastify": "^4.28.1",
+    "node-fetch": "^3.3.2"
+  }
+}
